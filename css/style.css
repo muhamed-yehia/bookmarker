@@ -1,0 +1,107 @@
+a{
+text-decoration: none;
+color: white;
+font-size: medium;
+}
+body {
+    background-color: rgb(54, 68, 192);
+}
+
+.btn {
+    font-size: large;
+    transition: all .8s;
+}
+
+#productInput img {
+    height: 150px;
+    object-fit: contain;
+}
+
+.style {
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/3d-render-low-poly-plexus-design-network-communications.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+
+    .layer {
+        height: 100%;
+        background-color: rgba(21, 27, 78, 0.479);
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.crud-style {
+    background-color: rgba(21, 27, 78, 0.479);
+
+    h2 {
+        font-family: "Righteous", sans-serif;
+    }
+
+    hr {
+        border: none;
+        border-style: dotted;
+        border-width: 2px;
+    }
+
+
+}
+
+.main-type {
+    width: fit-content;
+    margin: auto;
+    position: relative;
+
+    .type {
+        position: relative;
+        z-index: 2;
+
+    }
+
+    h1 {
+        font-size: 60px;
+        font-family: "Pacifico", cursive;
+        position: relative;
+        transition: all .8s;
+        z-index: 2;
+
+    }
+    h1:hover + .main-layer{
+        position: absolute;
+        top: 18px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .main-layer {
+        width: 100%;
+        background-color: rgba(0, 68, 255, 0.719);
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 60px;
+        transition: all .8s;
+        z-index: 0;
+
+    }
+
+
+}
+
+i{
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 30px;
+}
